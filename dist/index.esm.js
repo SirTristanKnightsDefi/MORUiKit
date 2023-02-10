@@ -2429,17 +2429,17 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href, banner = _a.banner;
     var isAbsoluteUrl = href.startsWith("http");
     if (isDark) {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmZk17aqKM7S9ptnAjGix76nUsWH3ZVqB9j5kiCijgYdfZ';
     }
     else {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmZk17aqKM7S9ptnAjGix76nUsWH3ZVqB9j5kiCijgYdfZ';
     }
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Knights DeFi home page" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2", alt: "MOR Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmZk17aqKM7S9ptnAjGix76nUsWH3ZVqB9j5kiCijgYdfZ", alt: "MOR Logo", className: "mobile-icon" }),
             React.createElement("img", { src: banner, alt: "MOR Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2", alt: "MOR Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmZk17aqKM7S9ptnAjGix76nUsWH3ZVqB9j5kiCijgYdfZ", alt: "MOR Logo", className: "mobile-icon" }),
             React.createElement("img", { src: banner, alt: "Knights DeFi Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
@@ -2724,12 +2724,12 @@ var PanelFooter = function (_a) {
     }
     return (React.createElement(Container, null,
         React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/", target: "_blank" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2", alt: "MOR Logo", style: {
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmZk17aqKM7S9ptnAjGix76nUsWH3ZVqB9j5kiCijgYdfZ", alt: "MOR Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React.createElement(Skeleton, { width: 80, height: 24 },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2", alt: "MOR Logo", style: {
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmZk17aqKM7S9ptnAjGix76nUsWH3ZVqB9j5kiCijgYdfZ", alt: "MOR Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),
