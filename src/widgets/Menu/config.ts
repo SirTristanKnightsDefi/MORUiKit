@@ -120,14 +120,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/MasterOfRewards",
+        href: "https://t.me/FesBNB",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/MasterOfRewards",
+    href: "https://twitter.com/FesBNB",
   },
 ];
 

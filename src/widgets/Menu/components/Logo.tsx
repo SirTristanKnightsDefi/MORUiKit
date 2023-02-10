@@ -52,12 +52,12 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
         <StyledLink as="a" href={href} aria-label="Knights DeFi home page">
           <img
             src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
-            alt="MasterOfRewards Logo"
+            alt="FesBNB Logo"
             className="mobile-icon"
           />
           <img
             src={banner}
-            alt="MasterOfRewards Logo"
+            alt="FesBNB Logo"
             className="desktop-icon"
           />
         </StyledLink>
@@ -65,7 +65,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
         <StyledLink to={href} aria-label="Knights DeFi home page">
           <img
             src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
-            alt="MasterOfRewards Logo"
+            alt="FesBNB Logo"
             className="mobile-icon"
           />
           <img
