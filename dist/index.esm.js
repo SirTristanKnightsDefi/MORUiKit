@@ -2429,17 +2429,17 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href, banner = _a.banner;
     var isAbsoluteUrl = href.startsWith("http");
     if (isDark) {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2';
     }
     else {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2';
     }
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Knights DeFi home page" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, alt: "FesBNB Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2", alt: "MOR Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: banner, alt: "MOR Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2", alt: "MOR Logo", className: "mobile-icon" }),
             React.createElement("img", { src: banner, alt: "Knights DeFi Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
@@ -2565,14 +2565,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/FesBNB",
+                href: "https://t.me/MOR",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FesBNB",
+        href: "https://twitter.com/MOR",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2723,13 +2723,13 @@ var PanelFooter = function (_a) {
                 React.createElement(Icon$T, null))));
     }
     return (React.createElement(Container, null,
-        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x8371a55dBEE669f16bD9e6137e2cE39ee87aE8e2", target: "_blank" },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", style: {
+        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/", target: "_blank" },
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2", alt: "MOR Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React.createElement(Skeleton, { width: 80, height: 24 },
-            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", style: {
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2", alt: "MOR Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),

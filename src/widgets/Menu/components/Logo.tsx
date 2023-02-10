@@ -34,9 +34,9 @@ const StyledLink = styled(Link)`
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) => {
   const isAbsoluteUrl = href.startsWith("http");
   if(isDark){
-    banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2';
   } else {
-    banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2';
   }
 
   return (
@@ -51,21 +51,21 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Knights DeFi home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
-            alt="FesBNB Logo"
+            src="https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2"
+            alt="MOR Logo"
             className="mobile-icon"
           />
           <img
             src={banner}
-            alt="FesBNB Logo"
+            alt="MOR Logo"
             className="desktop-icon"
           />
         </StyledLink>
       ) : (
         <StyledLink to={href} aria-label="Knights DeFi home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
-            alt="FesBNB Logo"
+            src="https://gateway.pinata.cloud/ipfs/QmdDgkNcg7YWhaPfJK9BuveaytaGgG9Hv3psGsVcVTXfW2"
+            alt="MOR Logo"
             className="mobile-icon"
           />
           <img
