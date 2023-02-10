@@ -2578,14 +2578,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/MOR",
+                href: "https://t.me/masterofrewards",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/MOR",
+        href: "https://twitter.com/MOR_BSC",
     },
 ];
 var MENU_HEIGHT = 64;
